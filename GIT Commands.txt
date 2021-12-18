@@ -1,0 +1,107 @@
+Git commands:
+---------------
+What you will learn here about git commands:
+
+   git clone
+   git checkout
+   git add
+   git status
+   git commit
+   git push
+   git pull
+   git merge
+   git commands
+   git clone
+
+git clone command clones or copy the target repository to the local repository.
+
+Syntax of git clone
+git clone < Repository URL>
+git checkout
+git checkout use to switch from one branch to another branch.
+
+Syntax of git checkout
+git checkout <Branch Name>
+git add
+git add command adds modified file or changed file to staging area.
+
+Syntax to add all modified file
+git add .
+Syntax to add single modified file
+git add <File Name with full path>
+
+ 
+git status
+git status command shows what are the modified files are in staging and non staging area after last commit
+
+Syntax of git status
+git status
+git commit
+git commit command adds changed or modified files from staging area to local repository
+
+Syntax of git commit
+git commit -m "add commit message here"
+git push
+git push command pushes changes from local repository to remote repository
+
+Syntax of git push
+git push
+git pull
+git pull command pulls new changes added to remote repository to local repository
+
+Syntax of git pull
+git pull
+git merge
+git merge command merge new changes from local repository to current working directory
+
+Syntax of git merge
+git merge <commit id>
+
+
+
+
+Frequently Ask Questions
+1)What is git command to show all branches?
+Answer: git branch -a
+
+2)What is git command to show remote branches?
+Answer: git branch -r
+
+3)How to display only the names of the changed files?
+Answer: git diff –name-only
+
+4)what is the Git command to view all the changes since the last commit?
+Answer: git status
+
+5)What is the command to store uncommited temporarily?
+Answer: git stash
+
+6)What is the command to delete a branch in your remote repository?
+Answer: git push origin -d <Branch Name> or git push –delete <Branch Name>
+
+7)What is the command to delete a branch in your local repository?
+Answer: git branch -d <Branch Name>
+
+
+ 
+8)If you want to view the changes since last commit in specific file, which command should you use?
+Answer: git diff <File Name>
+
+9)How can you temporarily switch to a different commit?
+git checkout <Commit SHA>
+
+10)What is the git command to create a branch?
+Answer: git branch <Branch Name>
+
+11)What is the git command to create new and switch that branch
+Answer: git checkout -b <Branch Name>
+
+12)What does the command Git reset –soft HEAD^ perform?
+Answer: Moves commit to one before current head
+
+13)How to delete unpublished Git commits and get rid of them permanently?
+Answer: git reset –hard
+
+14)What is the command to reset your index as well as the working directory to the state of your last commit?
+Answer: git reset
+
